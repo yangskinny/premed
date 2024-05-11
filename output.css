@@ -622,7 +622,7 @@ video {
 
 .border-gray-800 {
   --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  border-color: rgb(211 211 211 / var(--tw-border-opacity));
 }
 
 .bg-softwhite {
