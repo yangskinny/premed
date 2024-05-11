@@ -5,7 +5,8 @@
 @layer base {
     @font-face {
       font-family: 'Neutronic';
-      src: url(./media/Neutronic-Medium.woff2) format('woff2');
+      src: url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff2') format('woff2'), 
+      url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff') format('woff');
     }
 }
 

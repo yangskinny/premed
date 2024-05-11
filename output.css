@@ -444,6 +444,19 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'Neutronic';
+
+  src: url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff2') format('woff2'), 
+      url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PassengerSans';
+
+  src: url(./media/PassengerSans-Medium.woff2) format('woff2');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -583,11 +596,6 @@ video {
   margin-right: auto;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -604,10 +612,6 @@ video {
   margin-top: 7rem;
 }
 
-.mt-36 {
-  margin-top: 9rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -616,9 +620,9 @@ video {
   max-width: 56rem;
 }
 
-.border-gray-700 {
+.border-gray-800 {
   --tw-border-opacity: 1;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
 }
 
 .bg-softwhite {
@@ -683,6 +687,12 @@ video {
 
 .decoration-teal-500 {
   text-decoration-color: #14b8a6;
+}
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hover\:text-cyan-700:hover {
