@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Neutronic';
+      src: url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff2') format('woff2'), 
+      url('https://raw.githack.com/yangskinny/selfhostingfonts/main/media/Neutronic-Medium.woff') format('woff');
+    }
+}
+
+@layer base {
+    @font-face {
+      font-family: 'PassengerSans';
+      src: url(./media/PassengerSans-Medium.woff2) format('woff2');
+    }
+}
+
+.atkinson-hyperlegible-regular {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
