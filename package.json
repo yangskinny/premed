@@ -1,20 +1,14 @@
 {
   "name": "premed",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -o C:/Users/Shed/Desktop/premed/output.css"
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./output.css"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "css": "^3.0.0",
-    "tailwind": "^4.0.0"
-  },
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
   }
 }
